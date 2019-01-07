@@ -1,5 +1,3 @@
-//Followed the following tutorial for creating local modules: http://www.tutorialsteacher.com/nodejs/nodejs-local-modules
-
 //Require MySQL related modules
 const mysql = require('mysql')
 
@@ -12,23 +10,14 @@ let con = mysql.createConnection({
 })
 
 //Functions
-function getUsers(callback) {
+exports.getUsers = function(callback) {
 	let sql = "SELECT * FROM  users"
 	con.query(sql, function (err, result, fields) {
 		callback(err, result);
 	})
 }
 
-function getUser(name, callback) {
-}
-
-function hasUser(name, callback) {
-}
-
-function removeUser(name, callback) {
-}
-
-function addUser(name, age, callback) {
+exports.addUser = function (name, age, callback) {
 	let sql_template = "INSERT INTO users VALUES(?, ?)"
 	sql = mysql.format(sql_template, [name, age])
 
@@ -36,5 +25,3 @@ function addUser(name, age, callback) {
 		callback(err, result);
 	})
 }
-
-module.exports = user

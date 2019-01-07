@@ -1,3 +1,3 @@
 //index.js
 
-require('./app/index.js')
+require('./user/index.js')
