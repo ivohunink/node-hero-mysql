@@ -6,9 +6,6 @@ const express_hbs = require('express-handlebars')
 const express_bodyparser = require('body-parser')
 const { check, validationResult } = require('express-validator/check')
 
-//Require MySQL related modules
-const mysql = require('mysql')
-
 //Require general modules
 const path = require('path')
 
