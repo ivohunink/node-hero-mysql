@@ -1,0 +1,19 @@
+{
+  "name": "node-hero-mysql",
+  "version": "0.0.2",
+  "description": "This is the MySQL version of RisingStack's tutorial 'NodeJS Database' part of their series called Node Hero, in which you can learn how to get started with Node.js and to deliver software products using it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=express* node index.js",
+    "start": "clear; node index.js"
+  },
+  "author": "Ivo Hunink",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-validator": "^5.3.1",
+    "mysql": "^2.16.0"
+  }
+}
