@@ -1,7 +1,7 @@
 {
   "name": "node-hero-mysql",
   "version": "0.1.0",
-  "description": "This is the MySQL version of RisingStack's tutorial 'NodeJS Database' part of their series called Node Hero, in which you can learn how to get started with Node.js and to deliver software products using it.",
+  "description": "This is the (unofficial) MySQL version of RisingStack's tutorial 'Node Hero NodeJS Database'. ",
   "main": "index.js",
   "scripts": {
     "test": "DEBUG=express* node index.js",
