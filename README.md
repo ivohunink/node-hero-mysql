@@ -1,5 +1,5 @@
 # node-hero-mysql
-This is the (unofficial) MySQL version of RisingStack's tutorial 'Node Hero NodeJS Database'.
+This is the (unofficial) MySQL version of RisingStack's tutorial 'Node Hero NodeJS Database'. More info here: https://blog.risingstack.com/node-js-database-tutorial/
 
 # Installation
 Building and running this simple application is very easy. Be sure you have Git, NodeJS and MySQL installed, then follow the directions below. 
